@@ -1,0 +1,16 @@
+x=float(input("give me the first number: "))
+y=float(input("give me the second number: "))
+o= input ("give me an operator: ")
+
+if o == '+':
+	print(x+y)
+elif o == '-':
+	print (x-y)
+elif o == '/':
+	print (x/y)
+elif o == '*':
+	print (x*y)
+elif o == '**':
+	print(x**y)
+else :
+	print("Unknow operator, Please try again")
